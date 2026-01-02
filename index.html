@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Shikha Rai - Portfolio</title>
+  <title>Shikha Rai - QA Portfolio</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
@@ -23,7 +23,7 @@
     }
 
     .container {
-      max-width: 800px;
+      max-width: 900px;
       margin: 0 auto;
       text-align: center;
     }
@@ -40,15 +40,14 @@
     }
 
     p.description {
-      max-width: 600px;
+      max-width: 650px;
       margin: 1rem auto;
       color: #4b5563;
     }
 
     .icons a {
       margin: 0 0.5rem;
-      color: #000;
-      font-size: 1.2rem;
+      font-size: 1.3rem;
       text-decoration: none;
     }
 
@@ -64,21 +63,18 @@
     }
 
     .section-title {
-      margin-top: 2rem;
+      margin-top: 2.5rem;
       font-size: 1.8rem;
       font-weight: 600;
     }
 
-    .skills, .projects, .education {
-      margin: 1.5rem 0;
-    }
-
-    .skills div, .project-card {
+    .testing div {
       display: inline-block;
       background-color: #f1f5f9;
       margin: 0.5rem;
-      padding: 0.6rem 1rem;
+      padding: 0.7rem 1.1rem;
       border-radius: 6px;
+      font-size: 0.95rem;
     }
 
     .projects {
@@ -88,82 +84,96 @@
     }
 
     .project-card {
-      width: 300px;
-      padding: 1rem;
+      width: 320px;
+      background-color: #f1f5f9;
+      margin: 0.7rem;
+      padding: 1.2rem;
+      border-radius: 8px;
       text-align: left;
     }
 
-    .project-card a {
-      color: #2563eb;
-      text-decoration: none;
-      font-weight: 600;
+    .experience-card, .education-card {
+      background-color: #f1f5f9;
+      padding: 1.2rem;
+      margin: 0.8rem auto;
+      border-radius: 8px;
+      max-width: 700px;
+      text-align: left;
     }
 
-    .education-card {
-      background-color: #f1f5f9;
-      padding: 1rem;
-      margin: 0.5rem auto;
-      border-radius: 6px;
-      max-width: 500px;
+    ul {
+      margin-top: 0.5rem;
+      padding-left: 1.2rem;
+      font-size: 0.95rem;
+      color: #374151;
     }
   </style>
 </head>
 <body>
   <div class="container">
     <h1>Shikha Rai</h1>
-    <h2>Software Developer</h2>
+    <h2>Software Test Engineer (Manual & Automation)</h2>
+
     <p class="description">
-      Passionate and detail-oriented Software Developer with a strong foundation in designing and developing scalable web applications. Eager to contribute to impactful projects and continuously expand technical expertise through real-world problem solving and innovation.
+      Detail-oriented Software Test Engineer with hands-on experience in Manual and Automation Testing.
+      Skilled in identifying bugs, writing effective test cases, and ensuring high-quality software delivery.
     </p>
+
     <div class="icons">
       <a href="mailto:srai240516@gmail.com">📧</a>
-      <a href="https://www.linkedin.com/in/shikha-rai-3319a9267">🌐</a>
+      <a href="https://www.linkedin.com/in/shikha-rai-3319a9267" target="_blank">🌐</a>
       <a href="https://github.com/shikharai" target="_blank">🐙</a>
     </div>
-    <a href="https://drive.google.com/file/d/1_ZVhDIx0062dcKcFTiVZyRFcz_SKqI7u/view?usp=drivesdk" class="btn" target="_blank">Download Resume</a>
 
-    <h3 class="section-title">Skills</h3>
-    <div class="skills">
-      <div>JavaScript</div>
-      <div>Bootstrap</div>
-      <div>HTML & CSS</div>
-      <div>Java</div>
-      <div>Python</div>
+    <a href="https://drive.google.com/file/d/1_ZVhDIx0062dcKcFTiVZyRFcz_SKqI7u/view?usp=drivesdk" class="btn" target="_blank">
+      Download Resume
+    </a>
+
+    <!-- Experience -->
+    <h3 class="section-title">Experience</h3>
+    <div class="experience-card">
+      <strong>QA Engineer</strong><br />
+      <span>Quy Tech</span>
+      <ul>
+        <li>Performed comprehensive Manual Testing for web and mobile applications.</li>
+        <li>Designed and executed detailed test cases, test scenarios, and test plans.</li>
+        <li>Identified, logged, and tracked defects using proper bug life cycle.</li>
+        <li>Worked on Automation Testing using Python and Selenium.</li>
+        <li>Executed regression, smoke, and sanity testing during release cycles.</li>
+        <li>Collaborated closely with developers and product teams to ensure quality delivery.</li>
+      </ul>
+    </div>
+
+    <!-- Testing Expertise -->
+    <h3 class="section-title">Testing Expertise</h3>
+    <div class="testing">
+      <div>Manual Testing</div>
+      <div>Test Case Design</div>
+      <div>Bug Life Cycle</div>
+      <div>Regression Testing</div>
+      <div>Automation with Python</div>
+      <div>Selenium WebDriver</div>
+      <div>Appium</div>
+      <div>Cypress</div>
+      <div>API Testing</div>
       <div>SQL</div>
-      <div>Git</div>
-      <div>APIs</div>
     </div>
 
-    <h3 class="section-title">Projects</h3>
-    <div class="projects">
-      <div class="project-card">
-        <h4>Portfolio Website</h4>
-        <p>A personal website to showcase projects, skills, and experience. Built using HTML, CSS, and JavaScript.</p>
-        <p><strong>View:</strong> HTML, CSS, JavaScript</p>
-        <a href="#">View Project</a>
-      </div>
-      <div class="project-card">
-        <h4>E-commerce App</h4>
-        <p>A mock e-commerce platform with shopping cart and product listings.</p>
-        <p><strong>Tech:</strong> JavaScript, Node.js, Express</p>
-        <a href="#">View Project</a>
-      </div>
-    </div>
-
+    <!-- Education -->
     <h3 class="section-title">Education</h3>
-    <div class="education">
-      <div class="education-card">
-        <strong>Master of Computer Applications (MCA)</strong><br />
-        Integral University - 2023-2025
-      </div>
-      <div class="education-card">
-        <strong>Bachelor of Computer Applications (BCA)</strong><br />
-        Integral University - 2020-2023
-      </div>
+    <div class="education-card">
+      <strong>Master of Computer Applications (MCA)</strong><br />
+      Integral University – 2023–2025
     </div>
+    <div class="education-card">
+      <strong>Bachelor of Computer Applications (BCA)</strong><br />
+      Integral University – 2020–2023
+    </div>
+
   </div>
 </body>
 </html>
+
 
 
 
